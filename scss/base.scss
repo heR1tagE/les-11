@@ -1,0 +1,15 @@
+@use 'variables' as v; // Подключаем 'variables' с префиксом 'v'
+
+* {
+  font-family: v.$font-family; // Используем переменную с префиксом 'v'
+  color: v.$color-dark; // Используем переменную с префиксом 'v'
+  font-size: v.$font-size-normal;
+  font-weight: v.$font-weight-normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: v.$color-background; // Используем переменную с префиксом 'v'
+}

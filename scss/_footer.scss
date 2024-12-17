@@ -1,0 +1,14 @@
+@use 'variables' as v; // Подключаем 'variables' с префиксом 'v'
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 10%;
+  background-color: v.$color-footer; // Используем переменную с префиксом 'v'
+}
+
+.footer .ivan {
+  font-size: 21px;
+  font-weight: v.$font-weight-medium; // Используем переменную с префиксом 'v'
+}

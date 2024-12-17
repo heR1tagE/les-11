@@ -1,0 +1,12 @@
+// media.scss
+// Этот файл может содержать медиазапросы
+
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 24px;
+  }
+
+  .description {
+    max-width: 80%;
+  }
+}

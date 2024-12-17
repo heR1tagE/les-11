@@ -1,0 +1,20 @@
+@use 'variables' as v; // Подключаем 'variables' с префиксом 'v'
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background-color: v.$color-primary; // Используем переменную с префиксом 'v'
+}
+
+.header .nav {
+  width: 100%;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-right: 20%;
+}
